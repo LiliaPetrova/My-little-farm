@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+header {
+    background: url("../farm/image/header/man-agriculture-farm-farmer.jpg_s=l");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2rem 1rem 1rem 0rem rgba(0,0,0,0.5);
+
+}
+header div {
+    padding-bottom: 13rem;
+}
+h1 {
+    margin: 0;
+    width: 40vw;
+    font-size: 63px;
+    text-align: center;
+    color: rgb(75, 214, 31);
+    
+}
+header nav {
+    margin-top: 10rem;
+    padding-top: 1rem;
+    height: 0;
+}
+header nav ul{
+    padding-left: 0;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+header nav ul li {
+    list-style: none;
+    margin: 1rem;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    background: rgb(75, 214, 31);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 2rem 1rem 1rem 0rem rgba(0,0,0,0.5);
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu, .exc {
+    opacity: 0;
+}
